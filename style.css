@@ -26,7 +26,7 @@ body{
 span{
     color: rgb(242, 143, 242);
 }
-a{
+header a{
     text-decoration: none;
     font-size: 15px;
     margin: 15px;
@@ -34,7 +34,7 @@ a{
     padding: 5px;
 }
 
-a:hover{
+header a:hover{
     color:black;
     background-color:pink;
     text-decoration: underline; 
@@ -43,7 +43,7 @@ a:hover{
 /* home start */
 .section{
     width: 100%;
-    height: 400px;
+    height: 410px;
     background-image:url(showcase.jpg);
     background-size: cover;
     background-position:center;
@@ -116,25 +116,42 @@ footer{
     height: 90px;
    background-color:grey ;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center; 
-   
+   justify-content: space-evenly;
+   align-items: center;   
 }
 footer img{
-    height:45px;
-    
+    height:50px;
+    width: fit-content;
+   
+}
+
+.instagram{
+    height: 20px;
+    width: fit-content; 
+    cursor: pointer;
+
+}
+.facebook{
+    height: 20px;
+    width: fit-content; 
+    cursor: pointer;
+}
+.youtube{
+    height: 20px;
+    width: fit-content; 
+    cursor: pointer;
+    border-radius:5px ;
 }
 footer p{
     font-size: 12px;
     padding: 5px; 
     color: white;
-   
 }
+
 .sec{
     display: flex;
     background-color: rgb(239, 225, 231);
-    height:500px;
+    height:711px;
 }
 .div2{
     margin: 20px;
@@ -164,17 +181,17 @@ h6{
     margin: 57px;
     padding: 10px;
     height: fit-content;
-
-  
 }
 div3 , p {
     font-size:17px;
+    
 }
 
 /* <!-- services Start --> */
 .sec2{
     display: flex;
     background-color: rgb(226, 215, 221);
+    height: 711px;
     
 }
 .div4{
@@ -221,6 +238,9 @@ div3 , p {
 .div7 input{
     width: 500px; 
     border-radius: 0%;
+}
+h3{
+    color: brown;
 }
 h4{
     padding-left: 50px;
